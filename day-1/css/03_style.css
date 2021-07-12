@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.center {
+    text-align: center;
+}
+
+.container {
+    background: hotpink;
+    color: darkblue;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5em;
+    /*height: 300px;*/
+    /*Websites are responsive in general.
+    It's we who put dimension constraints and make them unresponsive.*/
+}

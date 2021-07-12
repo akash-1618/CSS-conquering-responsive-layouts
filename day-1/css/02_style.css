@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.parent {
+    background-color: darkblue;
+    padding: 50px;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.child {
+    background-color: lightseagreen;
+    /*
+    height: 250px;
+    width: 750px;
+    overflow: hidden;
+    */
+    width: 50%;
+    height: 150px;
+}
