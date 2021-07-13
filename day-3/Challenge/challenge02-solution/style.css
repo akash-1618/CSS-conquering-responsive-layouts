@@ -1,0 +1,65 @@
+/* INSTRUCTIONS
+ *
+ * 1) Keep the text inside .intro-content
+ *    in the same place, but have the background
+ *    extend from one side of the viewport
+ *    to the other, no matter how wide or narrow
+ *    the browser is.
+ *
+ * 2) Limit the maximum width of the text in the
+ *    bottom area.
+ *
+ * You may modify the HTML if needed
+ * (you probably should for this challenge)
+ *
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 50%;
+    min-width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    background: #23424a;
+    color: white;
+    padding: 50px 0;
+}
+
+.inside-container {
+    width: 50%;
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+.intro-content {
+    width: 50%;
+}
+
+.more-content {
+    width: 50%;
+    max-width: 750px;
+    margin: auto;
+}
+
+
+/***************
+SOLUTION
+
+Challenge 1 :
+1. Set the min-width of container to 100%.
+2. Put the content within intro-content inside a new div, inside-container.
+Set its width at 50%, margin at auto and max-width at 750px.
+
+Challenge 2 :
+1. Create a div for the extra content below, more-content.
+2. Set its width at 50% and margin auto. max-width at 750px.
+
+****************/
