@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.parent {
+    background-color: darkblue;
+    padding: 50px;
+    margin: 0 auto;
+    /*width: 1000px;*/
+    width: 85%;
+    /*default width of the viewport is 100%.
+    Setting up a width in pixels takes away the responsiveness of the page.
+    Use percentage to set the width of elements */
+}
+
+.child {
+    background-color: lightseagreen;
+    height: 250px;
+}
