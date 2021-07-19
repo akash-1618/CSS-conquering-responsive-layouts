@@ -1,0 +1,88 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+.hero {
+    background-color: #23424A;
+    width: 100%;
+    padding: 3em 0;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+.intro {
+    width: 60%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.intro p {
+    margin-bottom: 3em;
+}
+
+.btn {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #38CFD9;
+    width: fit-content;
+    border-radius: 4em;
+    font-weight: 900;
+}
+
+a {
+    color: black;
+    padding: 1em;
+}
+
+a:hover,
+a:focus {
+    opacity: .75;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.col+.col {
+    margin-left: 1em;
+}
+
+.three-col h2 {
+    color: #87629A;
+}
+
+.heroine {
+    background-color: #136C72;
+    padding: 3em 0;
+}
+
+.flex-2__row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    color: white;
+    padding: 1.5em 0;
+}
+
+.flex-2__col+.flex-2__col {
+    margin-left: 1em;
+}
