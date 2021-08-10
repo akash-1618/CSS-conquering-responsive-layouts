@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+.example {
+    width: 90%;
+    margin: 5em auto;
+    padding: 10em 0;
+    background-color: steelblue;
+}
+
+
+/* Media queries help to add/overwrite specific styles 
+that only target specific conditions. 
+Helps to present document in various media.
+We can put media type or media feature in it.
+Speech media queries exist!!!*/
+
+
+/* Only overwrites the properties that are specified in the query. 
+Rest of them stay as they are. */
+
+
+/* @media(){} - Targets all media types.*/
+
+
+/* @media media-type(){} - Specific media type - tv, print, etc.*/
+
+
+/*min-width : 600 px or bigger. 
+The above code would be for mobile. 
+When the screen width reaches 600px or bigger, the media query would style for desktop.*/
+
+@media(min-width:600px) {
+    /*600 px or bigger */
+    .example {
+        background-color: aquamarine;
+    }
+}
+
+
+/*max-width : 600 px or smaller.
+The above code would be for desktop. 
+When the screen width reaches 600px or smaller, 
+the media query would style for mobile.*/
+
+
+/* @media(max-width:600px) {
+    .example {
+        background-color: yellow;
+    }
+} */
+
+
+/* @media(min-width:600px) and (max-width:900px) {
+    
+} */
+
+@media(min-width:800px) {
+    .example {
+        background-color: orangered;
+    }
+}
+
+
+/*For min-width, and in case of having multiple queries, 
+media query should always have sizes mentioned in increasing order. eg :600, 800, 1000*/
+
+
+/*For max-width, and in case of having multiple queries, 
+media query should always have sizes mentioned in decreasing order. eg :600, 400, 200*/
+
+
+/* @media(max-width:800px) {
+    .example {
+        background-color: orangered;
+    }
+}
+
+@media(max-width:600px) {
+    .example {
+        background-color: blue;
+    }
+}
+
+@media(max-width:400px) {
+    .example {
+        background-color: springgreen;
+    }
+} */

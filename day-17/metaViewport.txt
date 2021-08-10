@@ -1,0 +1,6 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+The meta viewport tag is an important tag.
+Skipping it would render your media queries useless
+and the site may not be responsive anymore.
+It does not happen on Firefox, but Chrome suffers from it.
